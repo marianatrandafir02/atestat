@@ -1,0 +1,39 @@
+body
+{
+	background-image: url('../img/drapel.jpg');
+	background-size:cover;
+	background-position:center;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+	margin:0;
+}
+.titlu
+{
+	font-family:"Georgia", serif;
+	font-size:50px;
+	font-weight:bold;
+	color:#154360;
+	text-shadow:3px 3px 6px rgba(0,0,0,0.3);
+	border-bottom:5px solid#d4af37;
+	padding-bottom:10px;
+	text-align:center;
+	background:linear-gradient(to right, #0057b8,#ffd700, #da291c);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent:
+}
+.autor
+{
+	position:absolute;
+	top:170px;
+	right:20px;
+	font-family:"Arial", sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#333;
+	background-color:#FFFFFF;
+	padding:8px 12px;
+	border-radius:5px;
+	box-shadow:2px 2px 5px rgba(0,0,0,0.2);
+}

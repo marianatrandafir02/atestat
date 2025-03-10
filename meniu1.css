@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:silver;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(to right, #800000, #a00000);
+    color: white;
+    padding: 30px 0;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 18px 25px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    background: linear-gradient(to right, #ffcc00, #ff3300);
+    transition: 0.3s ease-in-out;
+    z-index: -1;
+}
+
+.navbar a:hover::before {
+    left: 0;
+}
+
+.navbar a:hover {
+    color: #fff;
+}
+
+main {
+    padding: 30px;
+    font-size: 17px;
+    font-weight: 80;
+    color: #333;
+}
