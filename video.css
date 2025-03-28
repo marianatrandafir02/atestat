@@ -1,0 +1,51 @@
+/* Resetare stiluri implicite */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fundal deschis pentru contrast */
+}
+
+/* Containerul video */
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Video-ul va ocupa întreaga înălțime a paginii */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Stilizarea video-ului */
+video {
+    width: 100%; /* Se va adapta lățimii containerului */
+    max-width: 100%; /* Nu va depăși 100% din lățimea */
+    height: auto; /* Păstrează raportul de aspect al video-ului */
+    border-radius: 15px; /* Colțuri rotunjite pentru un look modern */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Umbra subtilă pentru adâncire */
+    border: 5px solid #fff; /* Contur alb în jurul video-ului pentru efect vizual */
+}
+
+/* Controlul video-ului */
+video::-webkit-media-controls {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundal semi-transparent pentru controale */
+    border-radius: 5px; /* Colțuri rotunjite ale controalelor */
+}
+
+video::-webkit-media-controls-background {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Responsivitate - Asigură-te că video-ul se adaptează corect pe ecrane mai mici */
+@media (max-width: 768px) {
+    .video-container {
+        height: 80vh; /* La ecrane mai mici, video-ul va ocupa 80% din înălțime */
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+}
