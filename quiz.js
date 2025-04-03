@@ -1,5 +1,5 @@
 function calculateResult() {
-    var totalQuestions = 10;
+    var totalQuestions = 20;
     var score = 0;
     
     for (var i = 1; i <= totalQuestions; i++) {

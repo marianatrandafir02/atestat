@@ -1,13 +1,12 @@
-/* Stil general pentru pagina întreagă */
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, #56CCF2, #2F80ED); /* Fundal cu gradient frumos */
+    background: linear-gradient(to right, #56CCF2, #2F80ED);
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Face pagina să ocupe întreaga înălțime a ferestrei */
+    height: 100vh;
     color: #fff;
     overflow: hidden;
 }
@@ -18,14 +17,13 @@ body {
     border-radius: 15px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     width: 100%;
-    max-width: 800px; /* Lățimea maximă a quiz-ului */
+    max-width: 800px; 
     padding: 30px;
     overflow-y: auto;
     max-height: 80vh;
     transition: transform 0.3s ease-in-out;
 }
 
-/* Titlul quiz-ului */
 h1 {
     text-align: center;
     font-size: 28px;
@@ -34,13 +32,11 @@ h1 {
     color: #333;
 }
 
-/* Stil pentru fiecare întrebare */
 .question {
     margin-bottom: 20px;
     font-size: 18px;
 }
 
-/* Etichete și opțiuni de răspuns */
 label {
     display: block;
     margin: 10px 0;
@@ -49,10 +45,9 @@ label {
 
 input[type="radio"] {
     margin-right: 10px;
-    accent-color: #2F80ED; /* Culoare radio button */
+    accent-color: #2F80ED;
 }
 
-/* Butonul de trimitere a quiz-ului */
 button {
     background-color: #56CCF2;
     color: #fff;
@@ -71,7 +66,6 @@ button:hover {
     background-color: #2F80ED;
 }
 
-/* Stilizarea secțiunii cu rezultatul */
 .result {
     margin-top: 20px;
     font-size: 20px;
@@ -83,11 +77,10 @@ button:hover {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Mărirea spațiului pe ecran pentru o mai bună interacțiune */
 @media screen and (max-width: 600px) {
     .quiz-container {
         padding: 15px;
-        max-width: 90%; /* Permite quiz-ului să ocupe 90% din lățimea pe dispozitive mobile */
+        max-width: 90%; 
     }
 
     h1 {

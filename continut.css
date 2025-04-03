@@ -14,11 +14,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
-    height: 80%;
-    background: linear-gradient(to right, #2b2d42, #8d99ae); /* Gradient de culori reci */
-    border-radius: 15px;
-    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #2b2d42, #8d99ae); 
+    padding: 0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -48,7 +47,6 @@ p {
     line-height: 1.6;
 }
 
-/* Stil pentru imagine */
 .image-container {
     width: 50%;
     height: 100%;

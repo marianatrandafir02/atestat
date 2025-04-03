@@ -1,54 +1,53 @@
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f4f9;
-            margin: 0;
-            padding: 0;
-            color: #333;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    }
+header {
+    background-color: #8B0000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    }
+h1, h2 {
+    color: #8B0000;
+    text-align: center;
+    }
+h2 {
+    margin-top: 40px;
+    }
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+    padding: 0 15px;
+    }
+.section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
         }
-        header {
-            background-color: #8B0000;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-            font-size: 2em;
-            font-weight: bold;
+.section h2 {
+    color: #8B0000;
+    font-size: 1.8em;
+          }
+.section p {
+    font-size: 16px;
+    color: #555;
         }
-        h1, h2 {
-            color: #8B0000;
-            text-align: center;
-        }
-        h2 {
-            margin-top: 40px;
-        }
-        p {
-            font-size: 18px;
-            line-height: 1.8;
-            text-align: justify;
-            padding: 0 15px;
-        }
-        .section {
-            margin-top: 20px;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
-        }
-        .section h2 {
-            color: #8B0000;
-            font-size: 1.8em;
-        }
-        .section p {
-            font-size: 16px;
-            color: #555;
-        }
-        img {
-            width: 100%;
-            max-width: 800px;
-            display: block;
-            margin: 30px auto;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
+img {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
  
